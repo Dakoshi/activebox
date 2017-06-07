@@ -1,100 +1,183 @@
 @import "bootstrap.css";
 
-.blue div {
-    height: 300px;
-    background: lightblue;
+body {
+    background-color: #ffffff;
+    font-size: 14pt;
 }
 
-.grey div {
-    height: 300px;
-    background: #333;
-}
-
-.pink div {
-    height: 200px;
-    background: pink;
-}
-
-.nav-tabs {
-    margin-bottom: 15px;
-}
-
-.navbar-right {
-    margin-right: 0;
-}
-
-@media screen and (max-width: 767px) {
-    .masonry[data-columns]::before {
-        content:"1 .col-xs-12";
-    }
-}
-/*content + число - число подставляется в html data-columns и задает кол-во колонок
-*/
-
-@media screen and (min-width: 768px) and (max-width: 991px) {
-    .masonry[data-columns]::before {
-        content:"2 .col-xs-6";
-    }
-}
-
-@media screen and (min-width: 992px) and (max-width: 1199px) {
-    .masonry[data-columns]::before {
-        content:"3 .col-xs-4";
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    .masonry[data-columns]::before {
-        content:"3 .col-xs-4";
-    }
-}
-/*В плагине не работает автообновление. Решается запуском на локальном сервере.*/
-
-
-.breadcrumb > li + li:before {
-    content: "\f105";
-    font-family: "FontAwesome"
-}
-
-.footer {
-    background: #222222 none repeat scroll 0 0;
-    border-top: 4px solid #fcab0e;
-    margin: 0;
-    padding: 20px 0;
-}
-.footer_dv {
+.header {
+    background-image: url(img/bg_purple.png);
+    color: #ffffff;
     width: 100%;
 }
-.footer_dv h4 {
-    color: #fcab0e;
-    font-family: roboto;
-    font-weight: bold;
-    margin-bottom: 30px;
+
+
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #ffffff;
+    margin-top: 25px;
     text-transform: uppercase;
-}
-.footer_dv ul {
-    list-style: outside none none;
-    margin: 0;
-    padding: 0;
-}
-.footer_dv ul li:first-child {
-    border-top: medium none;
-    box-shadow: none;
-}
-.footer_dv ul li {
-    border-top: 1px solid #000;
-    box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.2);
-    color: #f1f2f2;
-    padding: 5px 0;
-}
-.footer_dv p {
-    color: #fff;
-    font-size: 14px;
-    line-height: 20px;
-    margin: 0 0 15px;
-    text-align: justify;
+    font-size: 0.9em;
+    padding-left: 0;
+
 }
 
-.button {
-    color: red;
+.navbar-nav {
+    float: right;
+    
+}
+
+
+.navbar-nav > li {
+    float: right;
+}
+
+.navbar-inverse .navbar-toggle {
+    color: #ffffff;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-brand {
+    margin-top: 3.5%;
+    margin-bottom: 3.5%;
+    margin-right: 0;
+    padding: 0;
+
+}
+
+a.navbar-brand {
+    height: 2%;
+}
+
+.navbar-inverse {
+    border-color: transparent;
+    background-color: transparent;
+    margin-bottom: 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 4em;
+    text-align: center;
+    padding-left: 14%;
+    padding-right: 14%;
+    padding-top: 14%;
+    padding-bottom: 4%;
+}
+
+
+
+p {
+    font-size: 1.5em;
+    padding-top: 0;
+    /*padding-left: 12%;
+    padding-right: 12%;*/
+    text-align: center;
+}
+
+.with_red_button > p {
+    margin-top: 17%;
+    width: 100%;
+    margin-bottom: 42%;
+}
+
+.btn-default {
+    width: 70%;
+    height: 40px;
+    background-color: #e84545;
+    border-color: #e84545;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 0.7em;
+}
+/*.btn-default, .col-md-4 {
+    font-size: 0.7em;
+}
+
+.btn-default, .col-sm-4 {
+    font-size: 0.7em;
+}*/
+
+.btn-default, .col-xs-4 {
+    font-size: 0.6em;
+}
+
+a.btn-default {
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+
+h2 {
+    font-size: 1em;
+    
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 8%;
+    padding-bottom: 8%; 
+}
+
+h2>a {
+    color: #3b3e41;
+    cursor: pointer;
+}
+
+p.feature_text {
+    color: #80858b; 
+    font-size: 1em;
+    padding-bottom: 20%;
+    margin-bottom: 0;
+}
+
+
+
+
+
+.feature {
+    margin-top: 10%;
+}
+
+.caption {
+    padding-bottom: 0;
+}
+
+
+/*works*/
+
+.works {
+    /*margin-left: 42px;*/
+    margin-right: 0;
+    padding-left: 1px;
+    padding-right: 1px;
+    width: 100%;
+}
+
+.works_img {
+    padding-left: 0;
+    padding-right: 0;
+    
+}
+
+.works_img>div {
+    padding: 0;
+    
+}
+
+div.thumbnail {
+    border-color: transparent;
+    margin-bottom: 0;
+    
+}
+
+
+.works_img > div.thumbnail > img {
+    height: 200px;
 }
