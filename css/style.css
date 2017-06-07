@@ -2,11 +2,12 @@
 
 body {
     background-color: #ffffff;
-    font-size: 14pt;
+    font-size: 100%/1.5em;
 }
 
 .header {
     background-image: url(img/bg_purple.png);
+    background-repeat: no-repeat;
     color: #ffffff;
     width: 100%;
 }
@@ -17,7 +18,7 @@ body {
     color: #ffffff;
     margin-top: 25px;
     text-transform: uppercase;
-    font-size: 0.9em;
+    font-size: 0.81em;
     padding-left: 0;
 
 }
@@ -63,7 +64,7 @@ a.navbar-brand {
 
 h1 {
     margin: 0;
-    font-size: 4em;
+    font-size: 4.06em;
     text-align: center;
     padding-left: 14%;
     padding-right: 14%;
@@ -74,7 +75,7 @@ h1 {
 
 
 p {
-    font-size: 1.5em;
+    font-size: 1.37em;
     padding-top: 0;
     /*padding-left: 12%;
     padding-right: 12%;*/
@@ -94,18 +95,7 @@ p {
     border-color: #e84545;
     color: #ffffff;
     text-transform: uppercase;
-    font-size: 0.7em;
-}
-/*.btn-default, .col-md-4 {
-    font-size: 0.7em;
-}
-
-.btn-default, .col-sm-4 {
-    font-size: 0.7em;
-}*/
-
-.btn-default, .col-xs-4 {
-    font-size: 0.6em;
+    font-size: 0.81em;
 }
 
 a.btn-default {
@@ -116,7 +106,7 @@ a.btn-default {
 
 
 h2 {
-    font-size: 1em;
+    font-size: 0.88em;
     
     font-weight: bold;
     text-transform: uppercase;
@@ -132,7 +122,7 @@ h2>a {
 
 p.feature_text {
     color: #80858b; 
-    font-size: 1em;
+    font-size: 0.88em;
     padding-bottom: 20%;
     margin-bottom: 0;
 }
@@ -180,4 +170,44 @@ div.thumbnail {
 
 .works_img > div.thumbnail > img {
     height: 200px;
+}
+
+
+
+/*team begin*/
+
+div.team_co {
+    margin-top: 8%;
+}
+
+.thumbnail .caption {
+    padding: 0;
+}
+
+div.team p {
+    text-align: left;
+    color: #80858b;
+    font-size: 0.87em;
+    line-height: 1.5em;
+}
+
+h3 a {
+    color: #2d3033;
+    font-size: 1.38em;
+    padding-bottom: 5%;
+}
+
+h4 {
+    color: #e84545;
+    font-size: 0.81em;
+    text-transform: uppercase;
+    padding-bottom: 10%;
+    margin: 0;
+}
+
+a.btn-link {
+    border-color: #c6cacc;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
 }
