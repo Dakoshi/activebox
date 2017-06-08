@@ -211,3 +211,52 @@ a.btn-link {
     height: 40px;
     margin-right: 5px;
 }
+
+
+/*carousel*/
+.carousel_left > img {
+    width: 100%;
+}
+
+
+
+div.carousel_left {
+    padding-left: 0;
+    padding-right: 0;
+    
+}
+
+div.carousel_right {
+    background-color: #53354a;
+    
+}
+
+.slider_text {
+    font-size: 2.25em;
+    color: #ffffff;
+    font-style: italic;
+    padding-top: 20%;
+    padding-left: 14%;
+    text-align: left;
+    padding-bottom: 6%;
+}
+
+.slider_text2 {
+    padding-top: 0;
+}
+
+/*.col-lg-6, .carousel_left > img {
+    height: 420px;
+}
+
+div.col-md-6, .carousel_left > img{
+    height: 360px;
+}
+
+div.col-sm-6, .carousel_left > img{
+    height: 280px;
+}
+
+div.col-xs-6, .carousel_left > img{
+    height: 200px;
+}*/
