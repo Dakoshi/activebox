@@ -287,6 +287,10 @@ a.btn-link > img {
 .icons {
     margin-right: 0;
 }
+
+.abc {
+    width: 30%;
+}
 /*@media screen and (max-width: 768px) {
     .team_visible_lg_md_sm {
         display: none;
